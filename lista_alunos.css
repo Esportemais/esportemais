@@ -1,0 +1,40 @@
+:root {
+	--azul_2: #0e2f73;
+	--azul_1: #0b1c40;
+	--azul_3: #2573d9;
+	--azul_4: #4192d9;
+	--cinza: #f2f2f2;
+}
+*{
+	padding: 0;
+	margin: 0;
+
+	box-sizing: border-box;
+	list-style-type: none;
+	text-decoration: none;
+	font-family: 'Montserrat';
+
+}
+
+
+.lista_alunos{
+	background: #fff;
+	display: flex;
+	height: 300px;
+	align-items: flex-end;
+	padding: 30px;
+    margin-top: 20px;
+}
+.tableau{
+    margin-top: 30px;
+    background-color: white;
+}
+.button_aluno{
+    background-color: var(--azul_1) ;
+    color: var(--cinza);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 20px;
+    cursor:pointer;
+}

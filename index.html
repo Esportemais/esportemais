@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Admin Dashbord html and css</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<script src="https://kit.fontawesome.com/e7fb0ed515.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<input type="checkbox" id="menu" name="">
+	<div class="sidebar">
+		<div class="sidebar-brand">
+			
+            <img class="logo_sidebar" src="/img/logo.jfif" alt="">
+		</div>
+
+		<div class="sidebar-menu">
+			<ul>
+				<li>
+					<a href="/index.html" class="active"><span class="fa fa-home"></span><span>RESUMO</span></a>
+				</li>
+				<li>
+					<a href="/lista_alunos.html"><span class="fa fa-tasks"></span><span>LISTA DE ALUNOS</span></a>
+				</li>
+				<li>
+					<a href="/turmas.html"><span class="fa-solid fa-people-group"></span><span>TURMAS</span></a>
+				</li>
+				<li>
+					<a href=""><span class="fa fa-line-chart"></span><span>PLANOS</span></a>
+				</li>
+				<li>
+					<a href=""><span class="fa fa-address-book"></span><span>RELATÓRIOS</span></a>
+				</li>
+				<li>
+					<a href=""><span class="fa-solid fa-chalkboard-user"></span><span>FUNCIONÁRIOS</span></a>
+				</li>
+				<li>
+					<a href=""><span class="fa fa-money"></span><span>PAGAMENTOS</span></a>
+				</li>
+				<li>
+					<a href=""><span class="fa-solid fa-gear"></span><span>CONFIGURAÇÕES</span></a>
+				</li>
+
+				<li>
+					<a href=""><span class="fa fa-user"></span><span>SUPORTE</span></a>
+				</li>
+				<li>
+					<a href="/taticalpad.html"><span class="fa fa-futbol"></span><span>TATICALPAD</span></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+
+
+	<div class="content">
+		
+		<header>
+			<p><label for="menu"><span class="fa fa-bars"></span></label><span class="accueil">MENU</span></p>
+
+			<div class="search-wrapper">
+				<span class="fa fa-search"></span>
+				<input type="search" name="" placeholder="PROCURAR" />
+			</div>
+
+			<div class="user-wrapper" id="dropdown">
+				<div>
+					<h4>ADRIANO OLIVEIRA</h4>
+					<small>Admin</small>
+				</div>
+				
+				<img src="/img/perfil.jpg" width="30" height="30" class="logo-admin">
+				<div class="dropdown-content">
+				<p>Usuário</p>
+				<p>Deconnexion</p>
+				</div>
+				
+			</div>
+		</header>
+
+		<main>
+			<div class="cards">
+				<div class="card-single">
+					<div>
+						<h2>R$ 5.000,00</h2>
+						<small>RECEITA</small>
+					</div>
+					<div>
+						<span class="fa fa-light fa-user"></span>
+					</div>
+				</div>
+
+				<div class="card-single">
+					<div>
+						<h2>+30</h2>
+						<small>MATRICULAS NOVAS</small>
+					</div>
+					<div>
+						<span class="fa fa-light fa-plus"></span>
+					</div>
+				</div>
+				<div class="card-single">
+					<div>
+						<h2>58</h2>
+						<small>TOTAL DE ALUNOS</small>
+					</div>
+					<div>
+						<span class="fa fa-group"></span>
+					</div>
+				</div>
+				<div class="card-single">
+					<div>
+						<h2>2.300,30</h2>
+						<small>VALORES A RECEBER</small>
+					</div>
+					<div>
+						<span class="fa fa-money"></span>
+					</div>
+				</div>
+			</div>
+
+			<div class="composant">
+				<div class="ventes">
+					<div class="case">
+						<div class="header-case">
+							<h2>LISTA DE ULTIMOS PAGANTES</h2>
+							<a href="/lista_alunos.html"><button class="button">Lista completa<span class="fa fa-arrow-right"></span></button></a>
+						</div>
+						<div class="body-case">
+							<div class="tableau">
+								<table width="100%">
+								  <thead>
+								    <tr>
+								      <td>Nome</td>
+								      <td>Turma</td>
+								      <td>Contato</td>
+									  <td>Status</td>
+								    </tr>
+								  </thead>
+								  <tbody>
+								    <tr>
+								      <td>Marcos Antonio</td>
+								      <td>TURMA 1</td>
+								      <td><span class="status-produit color-one"></span>(21) 9794252335</td>
+								    </tr>
+								    <tr>
+								      <td>Jackson Oliveira</td>
+								      <td>TURMA 1</td>
+								      <td><span class="status-produit color-two"></span>(21) 9794252335</td>
+								    </tr>
+								    <tr>
+								      <td>Larissa Alcantara</td>
+								      <td>TURMA 2</td>
+								      <td><span class="status-produit color-three"></span>(21) 9794252335</td>
+								    </tr>
+								     <tr>
+								      <td>Fabrício José</td>
+								      <td>TURMA 2</td>
+								      <td><span class="status-produit color-four"></span>(21) 9794252335</td>
+								    </tr>
+								     <tr>
+								      <td>Jailson Borges</td>
+								      <td>TURMA 3</td>
+								      <td><span class="status-produit color-five"></span>(21) 9794252335</td>
+								    </tr>
+								  </tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+				<div class="stock">
+					<div class="case">
+						<div class="header-case">
+							<h2>NOVOS ALUNOS</h2>
+							
+						</div>
+						<div class="body-case">
+							<div class="all-users">
+								<div class="infos">
+								<img src="/img/perfil criança 4.jpg" width="30" height="30">
+									<div>
+									<h4>Flávio Cavalcante</h4>
+									<small>SUB-7</small>
+								</div>
+								</div>
+								
+							<div class="user-contact">
+								<span class="fa fa-facebook"></span>
+								<span class="fa fa-whatsapp"></span>
+								<span class="fa fa-phone"></span>
+							</div>
+						</div>
+
+								<div class="all-users">
+								<div class="infos">
+								<img src="/img/perfil criança 1.jpg" width="30" height="30">
+									<div>
+									<h4>Antonio Victor</h4>
+									<small>SUB-11</small>
+								</div>
+								</div>
+								
+							<div class="user-contact">
+								<span class="fa fa-facebook"></span>
+								<span class="fa fa-whatsapp"></span>
+								<span class="fa fa-phone"></span>
+							</div>
+						</div>
+
+								<div class="all-users">
+								<div class="infos">
+								<img src="/img/perfil criança 2.jpg" width="30" height="30">
+									<div>
+									<h4>Fábio Neves</h4>
+									<small>SUB-9</small>
+								</div>
+								</div>
+								
+							<div class="user-contact">
+								<span class="fa fa-facebook"></span>
+								<span class="fa fa-whatsapp"></span>
+								<span class="fa fa-phone"></span>
+							</div>
+						</div>
+
+						
+							<div class="all-users">
+								<div class="infos">
+								<img src="/img/perfil criança 3.jpg" width="30" height="30">
+									<div>
+									<h4>Dawan Vieira</h4>
+									<small>SUB-11</small>
+								</div>
+								</div>
+								
+							<div class="user-contact">
+								<span class="fa fa-facebook"></span>
+								<span class="fa fa-whatsapp"></span>
+								<span class="fa fa-phone"></span>
+							</div>
+						</div>
+						</div>
+						<button class="btn">Ver lista completa<span class="fa fa-arrow-right"></span></button>
+					</div>
+				</div>
+				<div class="statistique">
+					<div class="statistique-barre bar1"></div>
+					<div class="statistique-barre bar2"></div>
+					<div class="statistique-barre bar3"></div>
+					<div class="statistique-barre bar4"></div>
+					<div class="statistique-barre bar5"></div>
+					<div class="statistique-barre bar6"></div>
+					<div class="statistique-barre bar5"></div>
+					<div class="statistique-barre bar6"></div>
+					<div class="statistique-barre bar5"></div>
+					<div class="statistique-barre bar6"></div>
+					<div class="statistique-barre bar4"></div>
+					<div class="statistique-barre bar5"></div>
+					<div class="statistique-barre bar6"></div>
+					
+			</div>
+				<div class="legende">
+					<h4>QUANTIDADE DE VALOR ENTRADA MENSALMENTE</h4>
+					<table>
+						<tr>
+							<td><span class="evolution color-one"></span>ABRIL </td>
+						</tr>
+						<tr>
+							<td><span class="evolution color-two"></span>MAIO</td>
+						</tr>
+					</table>
+					<div class="txt-deco">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						</p>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="calendar">
+			<div class="mois-annee">
+			  <ul>
+			    <li class="prev">&#10094;</li>
+			    <li class="next">&#10095;</li>
+			    <li>Abril<br><span>2023</span></li>
+			  </ul>
+			</div>
+
+			<ul class="mois">
+			  <li>Mo</li>
+			  <li>Tu</li>
+			  <li>We</li>
+			  <li>Th</li>
+			  <li>Fr</li>
+			  <li>Sa</li>
+			  <li>Su</li>
+			</ul>
+
+			<ul class="jours">
+			  <li>1</li>
+			  <li>2</li>
+			  <li>3</li>
+			  <li>4</li>
+			  <li>5</li>
+			  <li>6</li>
+			  <li>7</li>
+			  <li>8</li>
+			  <li>9</li>
+			  <li><span class="active">10</span></li>
+			  <li>11</li>
+			  <li>12</li>
+			  <li>13</li>
+			  <li>14</li>
+			  <li>15</li>
+			  <li>16</li>
+			  <li>17</li>
+			  <li>18</li>
+			  <li>19</li>
+			  <li>20</li>
+			  <li>21</li>
+			  <li>22</li>
+			  <li>23</li>
+			  <li>24</li>
+			  <li>25</li>
+			  <li>26</li>
+			  <li>27</li>
+			  <li>28</li>
+			  <li>29</li>
+			  <li>30<li>
+			</ul>
+			</div>
+		</main>
+	</div>
+</body>
+</html>
