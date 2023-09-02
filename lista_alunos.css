@@ -4,6 +4,8 @@
 	--azul_3: #2573d9;
 	--azul_4: #4192d9;
 	--cinza: #f2f2f2;
+	--danger: #b80101;
+	--success: #14701c;
 }
 *{
 	padding: 0;
@@ -12,7 +14,6 @@
 	box-sizing: border-box;
 	list-style-type: none;
 	text-decoration: none;
-	font-family: 'Montserrat';
 
 }
 
@@ -37,4 +38,31 @@
     margin-top: 50px;
     margin-left: 20px;
     cursor:pointer;
+}
+.body_case{
+	padding: .5rem;
+}
+table{
+	border-collapse: collapse;
+}
+.status_aluno{
+		color: var(--success);
+}
+.status_aluno2{
+	color: var(--danger);
+}
+.escopo_tabela{
+	background-color: var(--azul_1);
+	padding: 10px;
+	color: var(--cinza);
+}
+.button_remover_aluno{
+	background-color: var(--danger) ;
+    color: var(--cinza);
+    padding: 5px;
+    border-radius: 10px;
+    cursor:pointer;	
+}
+.body_case{
+
 }

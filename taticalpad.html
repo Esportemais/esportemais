@@ -5,13 +5,14 @@
     <style>
 		*{
 			background-color: #0e2f73;
+            overflow: hidden;
 		}
         /* Estilos para o campo de futebol */
         #campo {
-            width: 800px;
-            height: 500px;
+            width: 666px;
+            height: 420px;
             background-image: url('/img/6180697-vista-superior-do-campo-de-futebol-ou-campo-de-futebol-verde-vetor.jpg'); /* Substitua 'campo.png' pela imagem do campo de futebol */
-            background-size: cover;
+            background-size:cover;
             position: relative;
             margin: 0 auto;
         }
@@ -38,24 +39,34 @@
         .branca {
             background-color: white;
         }
+        .laranja {
+            background-color: red;
+        }
 		.texto_prancheta{
 			color: aliceblue;
-			margin-left: 50px;
+            display: block;
+            width: 100%;
+            margin-left: 400px;
+
 		}
 		.botao_return{
-			width: 200px;
-			height: 50px;
+			width: 100%;
+			height: 100%;
 			color: aliceblue;
 			background-color: red;
 			inline-size:auto;
-			
+			display: flex;
+            margin-left:70px;
 		}
+        .logo_tatical{
+            width: 30px;
+            margin-left: 100px;
+        }
 
     </style>
 </head>
 <body>
 	
-	<img src="/img/logo.jfif" width="200px" alt=""><a href="/index.html"><button class="botao_return">VOLTAR</button></a> <span class="texto_prancheta">ESPORTE MAIS</span>
 	
     <div id="campo">
         <!-- Bolinhas azuis e brancas serão posicionadas aqui -->
@@ -123,8 +134,9 @@
         }
 
         // Adiciona 11 bolinhas azuis numeradas na parte superior fora do campo e 11 bolinhas brancas numeradas na parte superior fora do campo
-        adicionarBolinhasNumeradas("azul", 11, 20); // Começa da posição X 20
-        adicionarBolinhasNumeradas("branca", 11, 490); // Começa da posição X 490
+        adicionarBolinhasNumeradas("azul", 11, 1); // Começa da posição X 20
+        adicionarBolinhasNumeradas("branca", 11, 340); // Começa da posição X 490
+        adicionarBolinhasNumeradas("laranja", 1, 320 )
     </script>
 </body>
 </html>
