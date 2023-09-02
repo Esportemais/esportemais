@@ -4,6 +4,8 @@
 	--azul_3: #2573d9;
 	--azul_4: #4192d9;
 	--cinza: #f2f2f2;
+	--danger: #b80101;
+	--success: #14701c;
 }
 *{
 	padding: 0;
@@ -167,29 +169,53 @@ main{
 	grid-gap: 2rem;
 	margin-top: 1rem;
 }
-.card-single{
+.card-single1{
 	display: flex;
-	background: #fff;
+	background: var(--success);
 	justify-content: space-between;
 	padding: 2rem;
 	border-radius: 10px;
 	box-shadow: 2px 5px 10px 2px rgb(0 0 0 / 10%);
 }
-.card-single span:first-child{
-	color: var(--azul_1);
+.card-single2{
+	display: flex;
+	background: var(--azul_1);
+	justify-content: space-between;
+	padding: 2rem;
+	border-radius: 10px;
+	box-shadow: 2px 5px 10px 2px rgb(0 0 0 / 10%);
 }
-.card-single span:last-child{
-	font-size: 2rem;
+.card-single3{
+	display: flex;
+	background: var(--azul_2);
+	justify-content: space-between;
+	padding: 2rem;
+	border-radius: 10px;
+	box-shadow: 2px 5px 10px 2px rgb(0 0 0 / 10%);
 }
-.card-single small{
-	color: var(--azul_3);
+.card-single4{
+	display: flex;
+	background: var(--danger);
+	justify-content: space-between;
+	padding: 2rem;
+	border-radius: 10px;
+	box-shadow: 2px 5px 10px 2px rgb(0 0 0 / 10%);
 }
-.card-single:hover{
+.card-single1, .card-single2, .card-single3, .card-single4, span:first-child{
+	color: var(--cinza);
+}
+.card-single1, .card-single2, .card-single3, .card-single4, span:last-child{
+	font-size: 1rem;
+}
+.card-single1 small{
+	color: var(--cinza);
+}
+.card-single1:hover, .card-single2:hover, .card-single3:hover, .card-single4:hover{
 	background: var(--azul_4);
 	color: #fff;
 }
 .card-single, h1{
-	color: var(--azul_2);
+	color: var(--cinza);
 }
 .composant{
 	margin-top: 3.5rem;
@@ -346,9 +372,16 @@ tr td:last-child{
 .legende{
 	background: #fff;
 	border-radius: 10px;
+	margin-left: -90px;
+
 }
 .legende h4{
-	padding: 1rem;
+	padding: 0.5rem;
+}
+#grafico{
+	background-color: #fff;
+	border-radius: 5%;
+	padding: 40px;
 }
 td .evolution{
 	display: inline-block;
